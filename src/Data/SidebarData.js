@@ -6,7 +6,7 @@ import PeopleIcon from '@material-ui/icons/People';
 import AppsIcon from '@material-ui/icons/Apps';
 
 
-export const SidebarIcon = [
+export const sidebarItemsData = [
     
 {
     icon :< MessageIcon/>,
