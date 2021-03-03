@@ -12,48 +12,36 @@ export const SidebarIcon = [
     icon :< MessageIcon/>,
     text : "Threads"
 
-}
+},
 
 {
     icon :< InboxIcon/>,
     text : "All DMs"
 
-}
+},
 
 {
     icon :< DraftsIcon/>,
     text : "Mentions & Reactions"
 
-}
+},
 
 {
     icon :< BookmarkBorderIcon/>,
     text : "Saved Items"
 
-}
+},
 
 {
     icon :<PeopleIcon/> ,
     text : "People & Groups"
 
-}
+},
 
 {
     icon :< AppsIcon/>,
     text : "More"
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 ];
