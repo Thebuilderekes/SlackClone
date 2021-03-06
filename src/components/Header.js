@@ -54,7 +54,7 @@ box-shadow: 0 1px 0 0 rgb(55 255 255 / 10%)
 
 `
 const Main = styled.div`
-margin: 0 16px;
+margin-left : 160px;
 display: flex;
 
 

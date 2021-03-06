@@ -41,6 +41,20 @@ function Siderbar() {
 
 </ChannelsContainer>
 
+
+
+ <ChannelsList>
+
+   <Channel>
+
+     # Channel 1
+   </Channel>
+
+   <Channel>
+
+     # Channel 2
+   </Channel>
+ </ChannelsList>
     </Container>
 
 
@@ -84,27 +98,53 @@ const NewMessage = styled.div`
 
 
 const MainChannels = styled.div`
+padding-top: 20px;
 
 `;
 
 const MainChannelItem = styled.div`
-color: white;
-padding-left: 19px;
 
+
+display:grid;
+grid-template-columns: 15% auto;
+
+padding-left:
+margin-top: 10px;
+color: rgb(188, 171, 188);
+cursor: pointer;
+padding-left: 19px;
+:hover {
+  background-color: #350d36;
+}
 `;
 
 
 const ChannelsContainer = styled.div `
-
+margin-top: 10px;
+color: rgb(188, 171, 188);
 `
 
 const NewChannelContainer = styled.div `
 display:flex;
-justify-content: space between;
+justify-content: space-between;
 align-items: center;
 height: 28px;
 padding-left: 19px;
-color: white;
+padding-right: 12px;
+`
 
 
+const ChannelsList = styled.div `
+color: rgb(188, 171, 188);
+`
+
+const Channel = styled.div `
+height: 28px;
+display: flex;
+align-items: center;
+padding-left: 19px;
+cursor: pointer;
+:hover {
+  background-color: #350d36;
+}
 `
